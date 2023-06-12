@@ -87,14 +87,17 @@ async function newproduct() {
           class="text-2xl text-center font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-blue-400 to-purple-600">
           สมัครสมาชิก
         </h1>
-        <input placeholder="ชื่อผู้ใช้" class="bg-white/20 text-white rounded-md p-2 outline-none" type="text"
+        <input placeholder="ชื่อผู้ใช้"
+          class="bg-white/20 text-white rounded-md p-2 outline-none transition-all hover:scale-105" type="text"
           v-model="account.username">
-        <input placeholder="รหัสผ่าน" class="bg-white/20 text-white rounded-md p-2 outline-none" type="password"
+        <input placeholder="รหัสผ่าน"
+          class="bg-white/20 text-white rounded-md p-2 outline-none transition-all hover:scale-105" type="password"
           v-model="account.password">
-        <input placeholder="ยืนยันรหัสผ่าน" class="bg-white/20 text-white rounded-md p-2 outline-none" type="password"
+        <input placeholder="ยืนยันรหัสผ่าน"
+          class="bg-white/20 text-white rounded-md p-2 outline-none transition-all hover:scale-105" type="password"
           v-model="account.confirmpassword">
         <button @click="newaccount"
-          class="bg-gradient-to-br from-blue-400 to-purple-600 text-white font-semibold rounded-md p-1.5 outline-none">สมัครสมาชิก</button>
+          class="bg-gradient-to-br from-blue-400 to-purple-600 text-white font-semibold rounded-md p-1.5 outline-none transition-all hover:scale-105">สมัครสมาชิก</button>
       </div>
 
       <table class="table-auto text-white text-center">
@@ -121,16 +124,20 @@ async function newproduct() {
           class="text-2xl text-center font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-blue-400 to-purple-600">
           จัดการสินค้า
         </h1>
-        <input placeholder="ชื่อ" class="bg-white/20 text-white rounded-md p-2 outline-none" type="text"
+        <input placeholder="ชื่อ"
+          class="bg-white/20 text-white rounded-md p-2 outline-none transition-all hover:scale-105" type="text"
           v-model="product.name">
-        <input placeholder="รายละเอียด" class="bg-white/20 text-white rounded-md p-2 outline-none" type="text"
+        <input placeholder="รายละเอียด"
+          class="bg-white/20 text-white rounded-md p-2 outline-none transition-all hover:scale-105" type="text"
           v-model="product.desc">
-        <input placeholder="ลิ้งรูปภาพ" class="bg-white/20 text-white rounded-md p-2 outline-none" type="text"
+        <input placeholder="ลิ้งรูปภาพ"
+          class="bg-white/20 text-white rounded-md p-2 outline-none transition-all hover:scale-105" type="text"
           v-model="product.img">
-        <input placeholder="ราคา" class="bg-white/20 text-white rounded-md p-2 outline-none" type="number"
+        <input placeholder="ราคา"
+          class="bg-white/20 text-white rounded-md p-2 outline-none transition-all hover:scale-105" type="number"
           v-model="product.price">
         <button @click="newproduct"
-          class="bg-gradient-to-br from-blue-400 to-purple-600 text-white font-semibold rounded-md p-1.5 outline-none">เพิ่มสินค้า</button>
+          class="bg-gradient-to-br from-blue-400 to-purple-600 text-white font-semibold rounded-md p-1.5 outline-none transition-all hover:scale-105">เพิ่มสินค้า</button>
       </div>
 
       <table class="table-auto text-white text-center">
