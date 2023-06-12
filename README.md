@@ -15,8 +15,7 @@ This is a web application built with Nuxt.js, Fastify, and Prisma. It provides u
 - Node.js installed on your machine.
 - PostgreSQL database.
 
-
-  API Endpoints
+## API Endpoints
   POST /register: Register a new user account.
 
   POST /product: Add a new product.
@@ -25,7 +24,7 @@ This is a web application built with Nuxt.js, Fastify, and Prisma. It provides u
 
   GET /accounts: Get a list of all user accounts.
 
-  Technologies Used
+## Technologies Used
   Nuxt.js: A Vue.js framework for building server-side rendered and static websites.
 
   Fastify: A fast and low overhead web framework for Node.js.
