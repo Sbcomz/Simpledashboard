@@ -30,6 +30,3 @@ This is a web application built with Nuxt.js, Fastify, and Prisma. It provides u
   Fastify: A fast and low overhead web framework for Node.js.
 
   Prisma: An open-source database toolkit and ORM for Node.js.
-
-  License
-  This project is licensed under the MIT License. See the LICENSE file for details.
